@@ -1,0 +1,12 @@
+{
+  "vendor-01": {
+    "id": "vendor-01",
+    "name": "Apple Korea",
+    "country": "Korea"
+  },
+  "vendor-02": {
+    "id": "vendor-02",
+    "name": "Microsoft Korea",
+    "country": "Korea"
+  }
+}

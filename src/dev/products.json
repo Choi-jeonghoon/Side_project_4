@@ -1,0 +1,732 @@
+{
+  "products": [
+    {
+      "id": "apple-mackbook-01",
+      "product_name": "Mackbook-pro-season01",
+      "price": "1280000",
+      "description": "This is Mackbook pro season01. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-02",
+      "product_name": "Mackbook-air-season01",
+      "price": "1100000",
+      "description": "This is Mackbook air season01. Another class for developers. More lighter",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-02",
+      "product_name": "Mackbook-pro-season02",
+      "price": "1520000",
+      "description": "This is Mackbook pro season02. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-02",
+      "product_name": "Mackbook-season02",
+      "price": "980000",
+      "description": "This is Mackbook season02. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-air-pro-01",
+      "product_name": "Mackbook-air-pro-season01",
+      "price": "1374000",
+      "description": "This is Mackbook air pro season01. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-pro-season03",
+      "product_name": "Mackbook-air-season05",
+      "price": "1287000",
+      "description": "This is Mackbook air season05. Another class for developers. More than lighter",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-04",
+      "product_name": "Mackbook-pro-season04",
+      "price": "1580000",
+      "description": "This is Mackbook pro season04. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-air-03",
+      "product_name": "Mackbook-pro-season03",
+      "price": "1172000",
+      "description": "This is Mackbook air season03. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-air-04",
+      "product_name": "apple-mackbook-air-03",
+      "price": "1172000",
+      "description": "This is Mackbook air season03. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-011",
+      "product_name": "Mackbook-pro-season01",
+      "price": "1280000",
+      "description": "This is Mackbook pro season01. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-021",
+      "product_name": "Mackbook-air-season01",
+      "price": "1100000",
+      "description": "This is Mackbook air season01. Another class for developers. More lighter",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-021",
+      "product_name": "Mackbook-pro-season02",
+      "price": "1520000",
+      "description": "This is Mackbook pro season02. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-021",
+      "product_name": "Mackbook-season02",
+      "price": "980000",
+      "description": "This is Mackbook season02. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-air-pro-011",
+      "product_name": "Mackbook-air-pro-season01",
+      "price": "1374000",
+      "description": "This is Mackbook air pro season01. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-pro-season031",
+      "product_name": "Mackbook-air-season05",
+      "price": "1287000",
+      "description": "This is Mackbook air season05. Another class for developers. More than lighter",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-041",
+      "product_name": "Mackbook-pro-season04",
+      "price": "1580000",
+      "description": "This is Mackbook pro season04. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-air-031",
+      "product_name": "Mackbook-pro-season03",
+      "price": "1172000",
+      "description": "This is Mackbook air season03. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-air-041",
+      "product_name": "apple-mackbook-air-03",
+      "price": "1172000",
+      "description": "This is Mackbook air season03. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-012",
+      "product_name": "Mackbook-pro-season01",
+      "price": "1280000",
+      "description": "This is Mackbook pro season01. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-022",
+      "product_name": "Mackbook-air-season01",
+      "price": "1100000",
+      "description": "This is Mackbook air season01. Another class for developers. More lighter",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-022",
+      "product_name": "Mackbook-pro-season02",
+      "price": "1520000",
+      "description": "This is Mackbook pro season02. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-022",
+      "product_name": "Mackbook-season02",
+      "price": "980000",
+      "description": "This is Mackbook season02. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-air-pro-012",
+      "product_name": "Mackbook-air-pro-season01",
+      "price": "1374000",
+      "description": "This is Mackbook air pro season01. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-pro-season032",
+      "product_name": "Mackbook-air-season05",
+      "price": "1287000",
+      "description": "This is Mackbook air season05. Another class for developers. More than lighter",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-042",
+      "product_name": "Mackbook-pro-season04",
+      "price": "1580000",
+      "description": "This is Mackbook pro season04. Another class for developers.",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-air-032",
+      "product_name": "Mackbook-pro-season03",
+      "price": "1172000",
+      "description": "This is Mackbook air season03. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "apple-mackbook-air-042",
+      "product_name": "apple-mackbook-air-03",
+      "price": "1172000",
+      "description": "This is Mackbook air season03. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Apple",
+        "name": "Apple",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Apple", "Mackbook"],
+      "vendor": "vendor-01"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-8-01",
+      "product_name": "Microsoft surface book pro 8",
+      "price": "1480000",
+      "description": "This is surface book pro 8. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-7-01",
+      "product_name": "Microsoft surface book pro 7",
+      "price": "1440000",
+      "description": "This is surface book pro 7. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-6-01",
+      "product_name": "Microsoft surface book pro 6",
+      "price": "1280000",
+      "description": "This is surface book pro 6. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-5-01",
+      "product_name": "Microsoft surface book pro 5",
+      "price": "1270000",
+      "description": "This is surface book pro 5. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-4-01",
+      "product_name": "Microsoft surface book pro 4",
+      "price": "1170000",
+      "description": "This is surface book pro 4. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-8-01",
+      "product_name": "Microsoft surface book pro 8",
+      "price": "1480000",
+      "description": "This is surface book pro 8. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-7-01",
+      "product_name": "Microsoft surface book pro 7",
+      "price": "1440000",
+      "description": "This is surface book pro 7. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-6-01",
+      "product_name": "Microsoft surface book pro 6",
+      "price": "1280000",
+      "description": "This is surface book pro 6. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-5-01",
+      "product_name": "Microsoft surface book pro 5",
+      "price": "1270000",
+      "description": "This is surface book pro 5. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-4-01",
+      "product_name": "Microsoft surface book pro 4",
+      "price": "1170000",
+      "description": "This is surface book pro 4. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-8-01",
+      "product_name": "Microsoft surface book pro 8",
+      "price": "1480000",
+      "description": "This is surface book pro 8. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-7-01",
+      "product_name": "Microsoft surface book pro 7",
+      "price": "1440000",
+      "description": "This is surface book pro 7. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-6-01",
+      "product_name": "Microsoft surface book pro 6",
+      "price": "1280000",
+      "description": "This is surface book pro 6. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-5-01",
+      "product_name": "Microsoft surface book pro 5",
+      "price": "1270000",
+      "description": "This is surface book pro 5. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-4-01",
+      "product_name": "Microsoft surface book pro 4",
+      "price": "1170000",
+      "description": "This is surface book pro 4. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-8-01",
+      "product_name": "Microsoft surface book pro 8",
+      "price": "1480000",
+      "description": "This is surface book pro 8. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-7-01",
+      "product_name": "Microsoft surface book pro 7",
+      "price": "1440000",
+      "description": "This is surface book pro 7. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-6-01",
+      "product_name": "Microsoft surface book pro 6",
+      "price": "1280000",
+      "description": "This is surface book pro 6. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-5-01",
+      "product_name": "Microsoft surface book pro 5",
+      "price": "1270000",
+      "description": "This is surface book pro 5. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-4-01",
+      "product_name": "Microsoft surface book pro 4",
+      "price": "1170000",
+      "description": "This is surface book pro 4. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-8-011",
+      "product_name": "Microsoft surface book pro 8",
+      "price": "1480000",
+      "description": "This is surface book pro 8. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-7-011",
+      "product_name": "Microsoft surface book pro 7",
+      "price": "1440000",
+      "description": "This is surface book pro 7. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-6-011",
+      "product_name": "Microsoft surface book pro 6",
+      "price": "1280000",
+      "description": "This is surface book pro 6. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-5-011",
+      "product_name": "Microsoft surface book pro 5",
+      "price": "1270000",
+      "description": "This is surface book pro 5. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    },
+    {
+      "id": "Microsoft-surface-book-pro-4-011",
+      "product_name": "Microsoft surface book pro 4",
+      "price": "1170000",
+      "description": "This is surface book pro 4. Another class for developers. Speed for coding",
+      "company": {
+        "id": "The number one Micro surface",
+        "name": "Microsoft",
+        "country": "USA"
+      },
+      "category": "lt01",
+      "tags": ["Laptop", "Microsoft", "Surface"],
+      "vendor": "vendor-02"
+    }
+  ]
+}
