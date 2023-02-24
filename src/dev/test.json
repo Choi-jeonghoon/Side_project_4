@@ -1,0 +1,247 @@
+{
+  "CA": {
+    "deptname": "경동사업부",
+    "dam": "CA",
+    "deptid1": "A0100",
+    "deptid2": "00",
+    "q01": "",
+    "group": [
+      {
+        "deptname": "송파사업국",
+        "dam": "CA",
+        "deptid1": "AA500",
+        "deptid2": "00",
+        "q01": "HA",
+        "group": [
+          {
+            "deptname": "천호지국",
+            "dam": "CA",
+            "deptid1": "BB338",
+            "deptid2": "00",
+            "q01": "HA"
+          },
+          {
+            "deptname": "명일지국",
+            "dam": "CA",
+            "deptid1": "BB736",
+            "deptid2": "00",
+            "q01": "HA"
+          },
+          {
+            "deptname": "미사학습센터",
+            "dam": "CA",
+            "deptid1": "BB384",
+            "deptid2": "00",
+            "q01": "HA"
+          },
+          {
+            "deptname": "송파지국",
+            "dam": "CA",
+            "deptid1": "BB386",
+            "deptid2": "00",
+            "q01": "HA"
+          },
+          {
+            "deptname": "위례학습센터",
+            "dam": "CA",
+            "deptid1": "BB408",
+            "deptid2": "00",
+            "q01": "HA"
+          }
+        ]
+      },
+      {
+        "deptname": "강북사업국",
+        "dam": "CA",
+        "deptid1": "AA501",
+        "deptid2": "00",
+        "q01": "HB",
+        "group": [
+          {
+            "deptname": "성북지국",
+            "dam": "CA",
+            "deptid1": "BB384",
+            "deptid2": "00",
+            "q01": "HB"
+          },
+          {
+            "deptname": "강북지국",
+            "dam": "CA",
+            "deptid1": "BB386",
+            "deptid2": "00",
+            "q01": "HB"
+          },
+          {
+            "deptname": "상계지국",
+            "dam": "CA",
+            "deptid1": "BB408",
+            "deptid2": "00",
+            "q01": "HB"
+          },
+          {
+            "deptname": "도봉지국",
+            "dam": "CA",
+            "deptid1": "BB410",
+            "deptid2": "00",
+            "q01": "HB"
+          },
+          {
+            "deptname": "중랑지국",
+            "dam": "CA",
+            "deptid1": "BB430",
+            "deptid2": "00",
+            "q01": "HB"
+          },
+          {
+            "deptname": "동대문지국",
+            "dam": "CA",
+            "deptid1": "BB466",
+            "deptid2": "00",
+            "q01": "HB"
+          }
+        ]
+      },
+      {
+        "deptname": "남양주사업국",
+        "dam": "CA",
+        "deptid1": "AA504",
+        "deptid2": "00",
+        "q01": "HE",
+        "group": [
+          {
+            "deptname": "진접지국",
+            "dam": "CA",
+            "deptid1": "BB397",
+            "deptid2": "00",
+            "q01": "HE"
+          },
+          {
+            "deptname": "남양주지국",
+            "dam": "CA",
+            "deptid1": "BB399",
+            "deptid2": "00",
+            "q01": "HE"
+          },
+          {
+            "deptname": "구리지국",
+            "dam": "CA",
+            "deptid1": "BB400",
+            "deptid2": "00",
+            "q01": "HE"
+          },
+          {
+            "deptname": "양평학습센터",
+            "dam": "CA",
+            "deptid1": "BB405",
+            "deptid2": "00",
+            "q01": "HE"
+          },
+          {
+            "deptname": "별내학습센터",
+            "dam": "CA",
+            "deptid1": "BB720",
+            "deptid2": "00",
+            "q01": "HE"
+          }
+        ]
+      }
+    ]
+  },
+  "CL": {
+    "deptname": "경기남부사업부",
+    "dam": "CL",
+    "deptid1": "A0111",
+    "deptid2": "00",
+    "q01": "00",
+    "group": [
+      {
+        "deptname": "분당사업국",
+        "dam": "CL",
+        "deptid1": "AA505",
+        "deptid2": "00",
+        "q01": "HF",
+        "group": [
+          {
+            "deptname": "경기광주지국",
+            "dam": "CL",
+            "deptid1": "BB345",
+            "deptid2": "00",
+            "q01": "HF"
+          },
+          {
+            "deptname": "성남지국",
+            "dam": "CL",
+            "deptid1": "BB487",
+            "deptid2": "00",
+            "q01": "HF"
+          },
+          {
+            "deptname": "분당지국",
+            "dam": "CL",
+            "deptid1": "BB708",
+            "deptid2": "00",
+            "q01": "HF"
+          },
+          {
+            "deptname": "분당남지국",
+            "dam": "CL",
+            "deptid1": "BB718",
+            "deptid2": "00",
+            "q01": "HF"
+          }
+        ]
+      },
+      {
+        "deptname": "수원사업국",
+        "dam": "CL",
+        "deptid1": "AA514",
+        "deptid2": "00",
+        "q01": "IH",
+        "group": [
+          {
+            "deptname": "영통지국",
+            "dam": "CL",
+            "deptid1": "BB468",
+            "deptid2": "00",
+            "q01": "IH"
+          },
+          {
+            "deptname": "동수원지국",
+            "dam": "CL",
+            "deptid1": "BB492",
+            "deptid2": "00",
+            "q01": "IH"
+          },
+          {
+            "deptname": "서수원지국",
+            "dam": "CL",
+            "deptid1": "BB497",
+            "deptid2": "00",
+            "q01": "IH"
+          },
+          {
+            "deptname": "북수원지국",
+            "dam": "CL",
+            "deptid1": "BB723",
+            "deptid2": "00",
+            "q01": "IH"
+          },
+          {
+            "deptname": "호매실학습센터",
+            "dam": "CL",
+            "deptid1": "BB723",
+            "deptid2": "00",
+            "q01": "IH"
+          },
+          {
+            "deptname": "향남학습센터",
+            "dam": "CL",
+            "deptid1": "BB740",
+            "deptid2": "00",
+            "q01": "IH"
+          }
+        ]
+      }
+    ]
+  }
+}
