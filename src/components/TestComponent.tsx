@@ -25,7 +25,6 @@ const TestComponent = ({ testData }: testComponetPropsType) => {
             </Card>
           </Grid>
         ))}
-        <Card></Card>
       </Grid>
     </Box>
   );
