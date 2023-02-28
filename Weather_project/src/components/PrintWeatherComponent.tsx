@@ -1,4 +1,3 @@
-import React from 'react';
 import { Weathers } from '../types/weatherTypes';
 import styled from 'styled-components';
 
@@ -18,4 +17,7 @@ const PrintWeatherComponent = ({ weatherData }: PropsType) => {
 export default PrintWeatherComponent;
 
 const Container = styled.div``;
-const WeatherInfo = styled.h2``;
+
+const WeatherInfo = styled.h2`
+  color: white;
+`;
