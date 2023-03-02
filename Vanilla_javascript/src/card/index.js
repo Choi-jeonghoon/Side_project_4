@@ -15,6 +15,7 @@ function showModal() {
     클릭 이벤트가 발생하면 모달창을 나타내는 div 엘리먼트의 display 스타일 속성 값을 "none"으로 설정하여 모달창을 닫습니다.
      */
 
+  //아래 코드를 삭제시 모달창외 바깥쪽을 클릭하면 모달창이 닫히는 상태를 없앨 수 있다
   window.addEventListener("click", function (event) {
     // window 객체에 클릭 이벤트 리스너를 등록하여, 모달창 바깥쪽을 클릭하면 모달창을 닫도록 합니다.
     if (event.target == modal) {
