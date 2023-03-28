@@ -1,20 +1,28 @@
 import { Box } from "@mui/system";
 import { React, memo } from "react";
 
-const items = [
-  {
-    title: "제목",
-    key: "id",
-  },
-  {
-    Contents: "내용",
-    key: "contents",
-  },
-];
-
 const MainComponent = memo(({ movieData, categoryData }) => {
   console.log("456", movieData);
   console.log("123", categoryData);
+
+  const items = [
+    {
+      title: "제목",
+      key: `${movieData?.title}`,
+    },
+    {
+      title: "",
+      key: `${movieData?.movieImg}`,
+    },
+    {
+      title: "카테고리",
+      key: `${categoryData?.category}`,
+    },
+    {
+      title: "줄거리",
+      key: `${movieData?.coment}`,
+    },
+  ];
 
   return (
     <Box
@@ -25,10 +33,10 @@ const MainComponent = memo(({ movieData, categoryData }) => {
         border: "1px solid white",
       }}
     >
-      {items.map(items => (
-        <Box key={items.key}>
-          {items.title}
-          <Box> {items.Contents}</Box>
+      {items.map(obj => (
+        <Box key={obj.id}>
+          {obj.title}
+          <Box>{obj.key}</Box>
         </Box>
       ))}
     </Box>

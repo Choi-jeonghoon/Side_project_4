@@ -4,7 +4,7 @@ import MainComponent from "../components/MainComponent";
 import useMovieData from "../hooks/useMovie";
 import useCategoryData from "../hooks/useMovie";
 
-const MainContainer = memo(() => {
+const MainContainer = () => {
   const { movieData } = useMovieData();
   const { categoryData } = useCategoryData();
 
@@ -13,6 +13,6 @@ const MainContainer = memo(() => {
       <MainComponent movieData={movieData} categoryData={categoryData} />
     </Box>
   );
-});
+};
 
-export default MainContainer;
+export default memo(MainContainer);
