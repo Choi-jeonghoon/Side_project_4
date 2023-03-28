@@ -6,13 +6,11 @@ import useCategoryData from "../hooks/useMovie";
 
 const MainContainer = memo(() => {
   const { movieData } = useMovieData();
-  console.log("컨테이너", movieData);
-
   const { categoryData } = useCategoryData();
-  console.log("컨테이너카테고리", categoryData);
+
   return (
     <Box>
-      <MainComponent />
+      <MainComponent movieData={movieData} categoryData={categoryData} />
     </Box>
   );
 });

@@ -1,5 +1,5 @@
 import { Box } from "@mui/system";
-import React, { memo } from "react";
+import { React, memo } from "react";
 
 const items = [
   {
@@ -12,7 +12,10 @@ const items = [
   },
 ];
 
-const MainComponent = memo(() => {
+const MainComponent = memo(({ movieData, categoryData }) => {
+  console.log("456", movieData);
+  console.log("123", categoryData);
+
   return (
     <Box
       sx={{
