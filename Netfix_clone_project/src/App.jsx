@@ -1,11 +1,7 @@
-import MainPage from './page/MainPage';
+import PublicRouter from "./routes/PublicRouter";
 
 function App() {
-  return (
-    <div className="App">
-      <MainPage></MainPage>
-    </div>
-  );
+  return <PublicRouter />;
 }
 
 export default App;
