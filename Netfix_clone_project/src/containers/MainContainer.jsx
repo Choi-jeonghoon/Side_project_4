@@ -1,13 +1,12 @@
-import { React, memo } from "react";
+import React from "react";
 import { Box } from "@mui/material";
 import MainComponent from "../components/MainComponent";
-import useMovieData from "../hooks/useMovie";
-import useCategoryData from "../hooks/useMovie";
+import useMovie from "../hooks/useMovice";
 
 const MainContainer = () => {
-  const { movieData } = useMovieData();
-  const { categoryData } = useCategoryData();
-
+  const [movieData, categoryData] = useMovie();
+  console.log("qweqwe", movieData);
+  console.log("qweqweqwe", categoryData);
   return (
     <Box>
       <MainComponent movieData={movieData} categoryData={categoryData} />
@@ -15,4 +14,4 @@ const MainContainer = () => {
   );
 };
 
-export default memo(MainContainer);
+export default MainContainer;

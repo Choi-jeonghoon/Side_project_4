@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 import CommonHeader from "../common/CommonHeader";
 import MainContainer from "../containers/MainContainer";
 
@@ -11,4 +11,4 @@ const MainPage = () => {
   );
 };
 
-export default memo(MainPage);
+export default MainPage;
