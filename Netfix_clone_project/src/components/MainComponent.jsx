@@ -18,22 +18,44 @@ const MainComponent = ({ movieData, categoryData }) => {
           margin: "1rem 2",
         },
         gap: "10px",
+        pb: "10px",
+        pt: "10px",
       }}
     >
       {movies &&
         movies.map(movie => (
-          <Card key={movie.id} sx={{ border: "1px solid red", height: "100%" }}>
+          <Card
+            key={movie.id}
+            sx={{
+              border: "1px solid red",
+              height: "400px",
+              overflow: "hidden",
+
+              backgroundColor: "black",
+            }}
+          >
             <CardMedia
               component="img"
               height="140"
               image={movie.movieImg}
               alt={movie.title}
             />
-            <CardContent>
+            <CardContent sx={{ color: "white" }}>
               <Typography gutterBottom variant="h5" component="div">
-                제목: {movie.title}
+                {movie.title}
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                sx={{
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                  display: "-webkit-box",
+                  WebkitLineClamp: 10,
+                  WebkitBoxOrient: "vertical",
+                  color: "white",
+                }}
+              >
                 줄거리: {movie.coment}
               </Typography>
             </CardContent>
