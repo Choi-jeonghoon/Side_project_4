@@ -2,10 +2,8 @@ import { Box, Card, CardMedia, CardContent, Typography } from "@mui/material";
 import React from "react";
 
 const MainComponent = ({ movieData, categoryData }) => {
-  console.log("qweqwe", movieData);
-  console.log("qweqweqwe", categoryData);
-
   const { movies } = movieData;
+  const { categories } = categoryData;
 
   return (
     <Box
@@ -30,7 +28,6 @@ const MainComponent = ({ movieData, categoryData }) => {
               border: "1px solid red",
               height: "400px",
               overflow: "hidden",
-
               backgroundColor: "black",
             }}
           >
@@ -44,6 +41,18 @@ const MainComponent = ({ movieData, categoryData }) => {
               <Typography gutterBottom variant="h5" component="div">
                 {movie.title}
               </Typography>
+
+              {categories &&
+                categories
+                  .filter(category => category.id === movie.category)
+                  .map(category => (
+                    <Box key={category.id}>
+                      <Typography gutterBottom variant="h8" component="div">
+                        카테고리: {category.category}
+                      </Typography>
+                    </Box>
+                  ))}
+
               <Typography
                 variant="body2"
                 color="text.secondary"
@@ -51,7 +60,7 @@ const MainComponent = ({ movieData, categoryData }) => {
                   overflow: "hidden",
                   textOverflow: "ellipsis",
                   display: "-webkit-box",
-                  WebkitLineClamp: 10,
+                  WebkitLineClamp: 7,
                   WebkitBoxOrient: "vertical",
                   color: "white",
                 }}
