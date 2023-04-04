@@ -1,5 +1,11 @@
+import PublicRouter from './Routers/PublicRouter';
+
 function App() {
-  return <>asdasd</>;
+  return (
+    <>
+      <PublicRouter />
+    </>
+  );
 }
 
 export default App;
