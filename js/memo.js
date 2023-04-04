@@ -81,6 +81,7 @@ app.addTodo(memo2);
 app.addTodo(memo3);
 아래와 같은 결과를 산출한다.
 */
+chart_project
 
 app.addTodo(new Memo(100, "메모테스트1", new Date()));
 app.addTodo(new Memo(200, "메모테스트2", new Date()));
