@@ -1,0 +1,391 @@
+{
+  "containers": {
+    "id": "chart-container-01",
+    "spec": {
+      "width": "1400px",
+      "height": "780px"
+    },
+    "displayOption": {
+      "width": "100%",
+      "height": "100%",
+      "display": "grid",
+      "gridTemplateColumns": "repeat(6, 1fr)",
+      "placesItems": "center"
+    }
+  },
+  "charts": {
+    "BarChartSpec": {
+      "title": "Population of Largest U.S. Cities",
+      "chartType": "BarChart",
+      "datas": [
+        ["City", "2010 Population", "2000 Population"],
+        ["New York City, NY", 8175000, 8008000],
+        ["Los Angeles, CA", 3792000, 3694000],
+        ["Chicago, IL", 2695000, 2896000],
+        ["Houston, TX", 2099000, 1953000],
+        ["Philadelphia, PA", 1526000, 1517000]
+      ],
+      "options": {
+        "title": "Population of Largest U.S. Cities",
+        "chartArea": {
+          "width": "50%"
+        },
+        "hAxis": {
+          "title": "Total Popluation",
+          "minValue": 0
+        },
+        "yAxis": {
+          "title": "City"
+        },
+        "vAxis": {
+          "title": "City"
+        }
+      },
+      "spec": {
+        "x": 0,
+        "y": 0,
+        "width": "300px",
+        "height": "300px"
+      }
+    },
+    "BubbleChartSpec": {
+      "title": "Correlation between life expectancy, fertility rate and population of some world countries (2010)",
+      "chartType": "BubbleChart",
+      "datas": [
+        ["ID", "Life Expectancy", "Fertility Rate", "Region", "Population"],
+        ["CAN", 80.66, 1.67, "North America", 33739900],
+        ["DEU", 79.84, 1.36, "Europe", 81902307],
+        ["DNK", 78.6, 1.84, "Europe", 5523095],
+        ["EGY", 72.73, 2.78, "Middle East", 79716203],
+        ["GBR", 80.05, 2, "Europe", 61801570],
+        ["IRN", 72.49, 1.7, "Middle East", 73137148],
+        ["IRQ", 68.09, 4.77, "Middle East", 31090763],
+        ["ISR", 81.55, 2.96, "Middle East", 7485600],
+        ["RUS", 68.6, 1.54, "Europe", 141850000],
+        ["USA", 78.09, 2.05, "North America", 307007000]
+      ],
+      "options": {
+        "title": "Correlation between life expectancy, fertility rate and population of some world countries (2010)",
+        "hAxis": {
+          "title": "Life Expectancy"
+        },
+        "vAxis": {
+          "title": "Fertility Rate"
+        },
+        "bubble": {
+          "textStyle": {
+            "fontSize": 11
+          }
+        }
+      },
+      "spec": {
+        "x": 310,
+        "y": 0,
+        "width": "300px",
+        "height": "300px"
+      }
+    },
+    "PieChartSpec": {
+      "title": "My Daily Activities",
+      "chartType": "PieChart",
+      "datas": [
+        ["Task", "Hours per Day"],
+        ["Work", 11],
+        ["Eat", 2],
+        ["Commute", 2],
+        ["Watch TV", 2],
+        ["Sleep", 7]
+      ],
+      "options": {
+        "title": "My Daily Activities"
+      },
+      "spec": {
+        "x": 620,
+        "y": 0,
+        "width": "300px",
+        "height": "300px"
+      }
+    },
+    "LineChartSpec": {
+      "title": "Company Performance",
+      "chartType": "LineChart",
+      "datas": [
+        ["Year", "Sales", "Expenses"],
+        ["2004", 1000, 400],
+        ["2005", 1170, 460],
+        ["2006", 660, 1120],
+        ["2007", 1030, 540]
+      ],
+      "options": {
+        "title": "Company Performance",
+        "curveType": "function",
+        "legend": { "position": "bottom" }
+      },
+      "spec": {
+        "x": 930,
+        "y": 0,
+        "width": "300px",
+        "height": "300px"
+      }
+    },
+    "ScatterChartSpec": {
+      "title": "Students' Final Grades",
+      "chartType": "Scatter",
+      "datas": [
+        ["Hours Studied", "Final"],
+        [0, 67],
+        [1, 88],
+        [2, 77],
+        [3, 93],
+        [4, 85],
+        [5, 91],
+        [6, 71],
+        [7, 78],
+        [8, 93],
+        [9, 80],
+        [10, 82],
+        [0, 75],
+        [5, 80],
+        [3, 90],
+        [1, 72],
+        [5, 75],
+        [6, 68],
+        [7, 98],
+        [3, 82],
+        [9, 94],
+        [2, 79],
+        [2, 95],
+        [2, 86],
+        [3, 67],
+        [4, 60],
+        [2, 80],
+        [6, 92],
+        [2, 81],
+        [8, 79],
+        [9, 83],
+        [3, 75],
+        [1, 80],
+        [3, 71],
+        [3, 89],
+        [4, 92],
+        [5, 85],
+        [6, 92],
+        [7, 78],
+        [6, 95],
+        [3, 81],
+        [0, 64],
+        [4, 85],
+        [2, 83],
+        [3, 96],
+        [4, 77],
+        [5, 89],
+        [4, 89],
+        [7, 84],
+        [4, 92],
+        [9, 98]
+      ],
+      "options": {
+        "title": "Students' Final Grades",
+        "subtitle": "based on hours studied",
+        "hAxis": {
+          "title": "Hours Studied"
+        },
+        "vAxis": {
+          "title": "Grade"
+        }
+      },
+      "spec": {
+        "x": 1040,
+        "y": 0,
+        "width": "300px",
+        "height": "300px"
+      }
+    },
+    "ColumnChartSpec": {
+      "title": "Mineral rate",
+      "chartType": "ColumnChart",
+      "datas": [
+        ["Element", "Density", { "role": "style" }],
+        ["Copper", 8.94, "#b87333"],
+        ["Silver", 10.49, "silver"],
+        ["Gold", 19.3, "gold"],
+        ["Platinum", 21.45, "color: #e5e4e2"]
+      ],
+      "options": {},
+      "spec": {
+        "x": 0,
+        "y": 310,
+        "width": "300px",
+        "height": "300px"
+      }
+    },
+    "ComboChartSpec": {
+      "title": "Monthly Coffee Production by Country",
+      "chartType": "ComboChart",
+      "datas": [
+        ["Month", "Bolivia", "Ecuador", "Madagascar", "Papua New Guinea", "Rwanda", "Average"],
+        ["2004/05", 165, 938, 522, 998, 450, 614.6],
+        ["2005/06", 135, 1120, 599, 1268, 288, 682],
+        ["2006/07", 157, 1167, 587, 807, 397, 623],
+        ["2007/08", 139, 1110, 615, 968, 215, 609.4],
+        ["2008/09", 136, 691, 629, 1026, 366, 569.6]
+      ],
+      "options": {
+        "title": "Monthly Coffee Production by Country",
+        "vAxis": {
+          "title": "Cups"
+        },
+        "hAxis": {
+          "title": "Month"
+        },
+        "seriesType": "bars",
+        "series": {
+          "5": {
+            "type": "line"
+          }
+        }
+      },
+      "spec": {
+        "x": 310,
+        "y": 310,
+        "width": "300px",
+        "height": "300px"
+      }
+    },
+    "SteppedAreaChartSpec": {
+      "title": "Interior Design Chart",
+      "chartType": "SteppedAreaChart",
+      "datas": [
+        ["Style", "Colonial", "Victorian", "Modern", "Contemporary"],
+        ["2013", 5.2, 3.6, 2.8, 2],
+        ["2014", 5.6, 4.0, 2.8, 3],
+        ["2015", 7.2, 2.2, 2.2, 6.0],
+        ["2016", 8.0, 1.7, 0.8, 4.0]
+      ],
+      "options": {
+        "isStacked": "relative",
+        "legend": {
+          "position": "top",
+          "maxLines": 3
+        },
+        "vAxis": {
+          "minValue": 0,
+          "ticks": [0, 0.3, 0.6, 0.9, 1]
+        }
+      },
+      "spec": {
+        "x": 620,
+        "y": 310,
+        "width": "300px",
+        "height": "300px"
+      }
+    },
+    "HistogramChartSpec": {
+      "title": "Lengths of dinosaurs, in meters",
+      "chartType": "Histogram",
+      "datas": [
+        ["Dinosaur", "Length"],
+        ["Acrocanthosaurus (top-spined lizard)", 12.2],
+        ["Albertosaurus (Alberta lizard)", 9.1],
+        ["Allosaurus (other lizard)", 12.2],
+        ["Apatosaurus (deceptive lizard)", 22.9],
+        ["Archaeopteryx (ancient wing)", 0.9],
+        ["Argentinosaurus (Argentina lizard)", 36.6],
+        ["Baryonyx (heavy claws)", 9.1],
+        ["Brachiosaurus (arm lizard)", 30.5],
+        ["Ceratosaurus (horned lizard)", 6.1],
+        ["Coelophysis (hollow form)", 2.7],
+        ["Compsognathus (elegant jaw)", 0.9],
+        ["Deinonychus (terrible claw)", 2.7],
+        ["Diplodocus (double beam)", 27.1],
+        ["Dromicelomimus (emu mimic)", 3.4],
+        ["Gallimimus (fowl mimic)", 5.5],
+        ["Mamenchisaurus (Mamenchi lizard)", 21.0],
+        ["Megalosaurus (big lizard)", 7.9],
+        ["Microvenator (small hunter)", 1.2],
+        ["Ornithomimus (bird mimic)", 4.6],
+        ["Oviraptor (egg robber)", 1.5],
+        ["Plateosaurus (flat lizard)", 7.9],
+        ["Sauronithoides (narrow-clawed lizard)", 2.0],
+        ["Seismosaurus (tremor lizard)", 45.7],
+        ["Spinosaurus (spiny lizard)", 12.2],
+        ["Supersaurus (super lizard)", 30.5],
+        ["Tyrannosaurus (tyrant lizard)", 15.2],
+        ["Ultrasaurus (ultra lizard)", 30.5],
+        ["Velociraptor (swift robber)", 1.8]
+      ],
+      "options": {
+        "title": "Lengths of dinosaurs, in meters",
+        "legend": {
+          "position": "none"
+        }
+      },
+      "spec": {
+        "x": 930,
+        "y": 310,
+        "width": "300px",
+        "height": "300px"
+      }
+    },
+    "MultiLevelChartSpec": {
+      "title": "Technical Stack Per Country",
+      "chartType": "Sankey",
+      "datas": [
+        ["From", "To", "Weight"],
+        ["Brazil", "Portugal", 5],
+        ["Brazil", "France", 1],
+        ["Brazil", "Spain", 1],
+        ["Brazil", "England", 1],
+        ["Canada", "Portugal", 1],
+        ["Canada", "France", 5],
+        ["Canada", "England", 1],
+        ["Mexico", "Portugal", 1],
+        ["Mexico", "France", 1],
+        ["Mexico", "Spain", 5],
+        ["Mexico", "England", 1],
+        ["USA", "Portugal", 1],
+        ["USA", "France", 1],
+        ["USA", "Spain", 1],
+        ["USA", "England", 5],
+        ["Portugal", "Angola", 2],
+        ["Portugal", "Senegal", 1],
+        ["Portugal", "Morocco", 1],
+        ["Portugal", "South Africa", 3],
+        ["France", "Angola", 1],
+        ["France", "Senegal", 3],
+        ["France", "Mali", 3],
+        ["France", "Morocco", 3],
+        ["France", "South Africa", 1],
+        ["Spain", "Senegal", 1],
+        ["Spain", "Morocco", 3],
+        ["Spain", "South Africa", 1],
+        ["England", "Angola", 1],
+        ["England", "Senegal", 1],
+        ["England", "Morocco", 2],
+        ["England", "South Africa", 7],
+        ["South Africa", "China", 5],
+        ["South Africa", "India", 1],
+        ["South Africa", "Japan", 3],
+        ["Angola", "China", 5],
+        ["Angola", "India", 1],
+        ["Angola", "Japan", 3],
+        ["Senegal", "China", 5],
+        ["Senegal", "India", 1],
+        ["Senegal", "Japan", 3],
+        ["Mali", "China", 5],
+        ["Mali", "India", 1],
+        ["Mali", "Japan", 3],
+        ["Morocco", "China", 5],
+        ["Morocco", "India", 1],
+        ["Morocco", "Japan", 3]
+      ],
+      "options": {},
+      "spec": {
+        "x": 1040,
+        "y": 310,
+        "width": "300px",
+        "height": "300px"
+      }
+    }
+  }
+}
