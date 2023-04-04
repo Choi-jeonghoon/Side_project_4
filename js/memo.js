@@ -6,6 +6,15 @@ class Memo {
   }
 }
 
+//카테고리 컬럼추가
+
+class CategoryMemo extends Memo {
+  constructor(key, todo, date, category) {
+    super(key, todo, date);
+    this.category = category;
+  }
+}
+
 class App {
   constructor() {
     this.todo = [];
@@ -19,8 +28,31 @@ class App {
     return this.todo;
   }
 
+  // addTodo(newTodo) {
+  //   const memo = new CategoryMemo(
+  //     newTodo.key,
+  //     newTodo.todo,
+  //     newTodo.date,
+  //     newTodo.category
+  //   );
+  //   this.todo.push(memo);
+  //   // new Memo(newTodo.key, newTodo.todo, newTodo.date, newTodo.CategoryMemo)
+  // }
+
+  //카테고리가 있는없는지에 따라 다르게 산출
   addTodo(newTodo) {
-    this.todo.push(new Memo(newTodo.key, newTodo.todo, newTodo.date));
+    if ("category" in newTodo) {
+      const memo = new CategoryMemo(
+        newTodo.key,
+        newTodo.todo,
+        newTodo.date,
+        newTodo.category
+      );
+      this.todo.push(memo);
+    } else {
+      const memo = new Memo(newTodo.key, newTodo.todo, newTodo.date);
+      this.todo.push(memo);
+    }
   }
 
   updateTodo(key, newTodo) {
@@ -40,16 +72,25 @@ class App {
 }
 
 const app = new App();
-const memo1 = new Memo(100, "메모테스트1", "2023-04-03");
+/*
+const memo1 = new Memo(100, "메모테스트1", new Date());
 const memo2 = new Memo(200, "메모테스트2", "2023-04-04");
 const memo3 = new Memo(300, "메모테스트3", "2023-04-05");
-
 app.addTodo(memo1);
 app.addTodo(memo2);
 app.addTodo(memo3);
+아래와 같은 결과를 산출한다.
+*/
+
+app.addTodo(new Memo(100, "메모테스트1", new Date()));
+app.addTodo(new Memo(200, "메모테스트2", new Date()));
+app.addTodo(new Memo(300, "메모테스트4", new Date()));
+
+//카테고리 값이 있는걸로 출력할시
+app.addTodo(new CategoryMemo(100, "메모테스트5", new Date(), "잡소리"));
 
 // console.log("특정값 만 가져오기:", app.getTodo(1));
-// console.log("전체 가져오기:", app.getTodoAll());
+console.log("전체 가져오기:", app.getTodoAll());
 // app.deleteTodo(300);
 // console.log("삭제 확인:", app.getTodoAll());
 // console.log(
