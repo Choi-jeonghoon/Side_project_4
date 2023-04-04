@@ -3,7 +3,7 @@ import MainComponent from './../components/MainComponent';
 
 const MainContainer = () => {
   return (
-    <div>
+    <div style={{ width: 350, height: 250 }}>
       <MainComponent />
     </div>
   );
