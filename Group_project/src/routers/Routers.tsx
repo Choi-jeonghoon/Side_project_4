@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import JeiPage from '~/pages/JeiPage';
 import LodingComponent from '../components/LodingComponent';
 
 const TestPage = lazy(() => import('../pages/TestPage'));
@@ -9,7 +10,8 @@ const Router = () => {
     <Suspense fallback={<LodingComponent />}>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<TestPage />} />
+          <Route path='/' element={<JeiPage />} />
+          <Route path='/test' element={<TestPage />} />
         </Routes>
       </BrowserRouter>
     </Suspense>
