@@ -1,0 +1,144 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "React Chaser John Wick",
+      "movieImg": "/img1.jpg",
+      "category": 1,
+      "coment": "'John Wick', who survived the crisis of death, finds a way to knock down the 'Supreme Council'. Finally, he sees the hope of complete freedom, but the new villain 'Marquis Gramont' and the world's strongest alliance make even old friends of 'John Wick' enemies, and 'John Wick', who is in a new crisis, prepares for the final counterattack. ,, A new chapter of the legendary action blockbuster <John Wick> opens!"
+    },
+    {
+      "id": 2,
+      "title": "웅남이",
+      "movieImg": "/img1.jpg",
+      "category": 2,
+      "coment": "인간을 초월하는 짐승 같은 능력으로 국제 범죄 조직에 맞서는 웅남이의 좌충우돌 코미디 <웅남이>"
+    },
+    {
+      "id": 3,
+      "title": "鈴目の門取り締まり",
+      "movieImg": "/img1.jpg",
+      "category": 3,
+      "coment": "“이 근처에 폐허 없니? 문을 찾고 있어”규슈의 한적한 마을에 살고 있는 소녀 ‘스즈메’는 문을 찾아 여행 중인 청년 ‘소타’를 만난다.그의 뒤를 쫓아 산속 폐허에서 발견한 낡은 문.‘스즈메’가 무언가에 이끌리듯 문을 열자 마을에 재난의 위기가 닥쳐오고가문 대대로 문 너머의 재난을 봉인하는 ‘소타’를 도와 간신히 문을 닫는다.“닫아야만 하잖아요, 여기를!”재난을 막았다는 안도감도 잠시,수수께끼의 고양이 ‘다이진’이 나타나 ‘소타’를 의자로 바꿔 버리고일본 각지의 폐허에 재난을 부르는 문이 열리기 시작하자‘스즈메’는 의자가 된 ‘소타’와 함께 재난을 막기 위한 여정에 나선다.“꿈이 아니었어”규슈, 시코쿠, 고베, 도쿄재난을 막기 위해 일본 전역을 돌며 필사적으로 문을 닫아가던 중어릴 적 고향에 닿은 ‘스즈메’는 잊고 있던 진실과 마주하게 되는데…"
+    },
+    {
+      "id": 4,
+      "title": "컨저링:인형",
+      "movieImg": "/img1.jpg",
+      "category": 4,
+      "coment": "어느 날 갑자기, 가족이 사라졌다.아델라인 그레이는 살던 동네가 폭격을 당하자 딸 클로이와 함께 피난을 나선다.딸과 함께 거처할 곳을 아서가 구해줬지만, 생각보다 커다란 저택이고 추운 곳이었다.숲에서 같이 숨바꼭질을 하던 중 비명과 함께 사라진 클로이를 찾아 헤매던 아델라인은우연히 ‘메리’라는 여인이 쓴 메모를 발견한다.그 메모에는 인형 안에서 살아있는 마녀의 영혼이 자신의 딸 클로이를 데리고 있다는 내용이었다.아델라인은 메리가 누군지 인형의 저주는 무엇인지 파헤치기 시작하고 결국 감당 못할충격적인 진실과 마주하게 되는데……"
+    },
+    {
+      "id": 5,
+      "title": "워낭소리",
+      "movieImg": "/img1.jpg",
+      "category": 5,
+      "coment": "사람과 사랑을 울리는... (워낭소리) | 초록 논에 물이 돌 듯 온기를 전하는 이야기 | 팔순 농부와 마흔 살 소, 삶의 모든 것이 기적이었다. 평생 땅을 지키며 살아온 농부 최노인에겐 30년을 부려온 소 한 마리가 있다. 소의 수명은 보통 15년, 그런데 이 소의 나이는 무려 마흔 살. 살아 있다는 게 믿기지 않는 이 소는 최노인의 베스트 프렌드이며, 최고의 농기구이고, 유일한 자가용이다. 귀가 잘 안 들리는 최노인이지만 희미한 소의 워낭 소리도 귀신같이 듣고 한 쪽 다리가 불편하지만 소 먹일 풀을 베기 위해 매일 산을 오른다. 심지어 소에게 해가 갈까 논에 농약을 치지 않는 고집쟁이다. 소 역시 제대로 서지도 못 하면서 최노인이 고삐를 잡으면 산 같은 나뭇짐도 마다 않고 나른다. 무뚝뚝한 노인과 무덤덤한 소. 둘은 모두가 인정하는 환상의 친구다. 그러던 어느 봄, 최노인은 수의사에게 소가 올 해를 넘길 수 없을 거라는 선고를 듣는다."
+    },
+    {
+      "id": 6,
+      "title": "반찬꼬",
+      "movieImg": "/img1.jpg",
+      "category": 6,
+      "coment": " 까칠한 남자 ‘고수’, 들이대는 여자 ‘한효주’사람 구하기 좋은 날, 우린 만났다!매일 목숨을 내놓고 사건 현장에 뛰어들지만 정작 자신의 아내를 구하지 못한 상처를 간직한 소방관 ‘강일(고수). 매번 제 멋대로 말하고 거침없이 행동하며 상처도 사랑도 없는 척하지만 단 한번의 실수로 위기에 처한 의사 ‘미수’(한효주).우연한 기회에 ‘미수’가 ‘119 구조대 의용대원’으로 일하게 되면서 같은 구조대에 있는 ‘강일’에게 처음으로 마음을 열고 적극적으로 다가간다. 모든 방법을 동원해 ‘강일’에게 애정공세를 펼치는 ‘미수’. 그리고 그런 그녀에게 까칠함으로 일관하던 강일 역시 조금씩 마음을 열기 시작한다.가스 폭발 사고는 물론 차량 충돌 사고까지 쉴 틈 없이 이어지는 아찔한 사고 현장 속에서 생명을 구하고 기분 좋게 하루를 마무리 하며, 또 다른 내일을 준비하는 소방대원들. 생사가 오가는 치열한 현장에서 다른 이들의 생명은 구하며 살지만 정작 자신의 상처는 돌보지 못하는 ‘강일’과 ‘미수’.과연 그들은 서로의 상처에 반창꼬를 붙여 줄 수 있을까?12월, 사랑보다 더 ‘뜨거운’ 이야기가 시작된다!"
+    },
+    {
+      "id": 7,
+      "title": "Avengers: Endgame",
+      "movieImg": "/img1.jpg",
+      "category": 1,
+      "coment": "Earth Half Survived After Infinity War Avengers Last Hope. I risked everything for those who left first! great avengers The final war that will change fate unfolds!"
+    },
+    {
+      "id": 8,
+      "title": "이웃집 스타",
+      "movieImg": "/img1.jpg",
+      "category": 2,
+      "coment": "이웃집에 스타가? 아니 엄마가 산다!대한민국이 발칵 뒤집힐 코믹 모녀 스캔들!나야 나! 톱스타 한스타 한혜미 손가락만 까딱~해도 이슈가 되는 스캔들메이커 한혜미떠오르는 아이돌 스타 갓지훈과 또 다시 핑크빛 열애설로 화제의 중심에 오르다!가만 안 둬! 내가 바로 한스타 악플러 한소은톱스타이자 엄마 한혜미와 한 집인 듯 한 집 아닌 이웃살이를 하고 있는 여중생감히 우리 오빠 갓지훈과 열애설이 난 철없는 엄마 전담 악플러로 변신하다!들키면 큰일 날 비밀 동거 사이!열애설로 한스타와 소은의 신경전이 계속되는 가운데,사람들의 관심은 점점 밝혀져서는 안될 두 사람의 비밀 이웃살이에 대한 의심으로 변하게 된다. 두 지붕, 한 가족, 모녀 사이인 한스타와 소은은 함께 이 위기를 헤쳐나갈 수 있을까?"
+    },
+    {
+      "id": 9,
+      "title": "君の名は",
+      "movieImg": "/img1.jpg",
+      "category": 3,
+      "coment": "아직 만난 적 없는 너를, 찾고 있어천년 만에 다가오는 혜성기적이 시작된다도쿄에 사는 소년 ‘타키’와 시골에 사는 소녀 ‘미츠하’는서로의 몸이 뒤바뀌는 신기한 꿈을 꾼다낯선 가족, 낯선 친구들, 낯선 풍경들...반복되는 꿈과 흘러가는 시간 속, 마침내 깨닫는다우리, 서로 뒤바뀐 거야?절대 만날 리 없는 두 사람반드시 만나야 하는 운명이 되다서로에게 남긴 메모를 확인하며점점 친구가 되어가는 ‘타키’와 ‘미츠하’언제부턴가 더 이상 몸이 바뀌지 않자자신들이 특별하게 이어져있었음을 깨달은‘타키’는 ‘미츠하’를 만나러 가는데...잊고 싶지 않은 사람잊으면 안 되는 사람너의 이름은?"
+    },
+    {
+      "id": 10,
+      "title": "두 개의 달",
+      "movieImg": "/img1.jpg",
+      "category": 4,
+      "coment": "아침이 오지 않는 밤, 죽은 자들이 깨어나는 집, 그 곳에 갇힌 세 남녀! 잃어버린 기억을 찾아야만 이 곳을 벗어날 수 있다!"
+    },
+    {
+      "id": 11,
+      "title": "님아, 그 강을 건너지 마오",
+      "movieImg": "/img1.jpg",
+      "category": 5,
+      "coment": "우리는 76년째 연인입니다.89세 소녀감성 강계열 할머니, 98세 로맨티스트 조병만 할아버지이들은 어딜 가든 고운 빛깔의 커플 한복을 입고 두 손을 꼭 잡고 걷는 노부부이다.봄에는 꽃을 꺾어 서로의 머리에 꽂아주고, 여름엔 개울가에서 물장구를 치고,가을엔 낙엽을 던지며 장난을 치고, 겨울에는 눈싸움을 하는 매일이 신혼 같은 백발의 노부부.장성한 자녀들은 모두 도시로 떠나고 서로를 의지하며 살던 어느 날,할아버지가 귀여워하던 강아지 ‘꼬마’가 갑자기 세상을 떠난다.꼬마를 묻고 함께 집으로 돌아온 이후부터 할아버지의 기력은 점점 약해져 가는데…비가 내리는 마당, 점점 더 잦아지는 할아버지의 기침소리를 듣던 할머니는 친구를 잃고 홀로 남은 강아지를 바라보며 머지 않아 다가올 또 다른 이별을 준비한다."
+    },
+    {
+      "id": 12,
+      "title": "Avengers: Infinity War",
+      "movieImg": "/img1.jpg",
+      "category": 1,
+      "coment": "Avengers with a new combination,The fate of the world is at stake against Thanos, the strongest villain ever. An infinite battle for the Infinity Stone unfolds! Witness the climax of Marvel!"
+    },
+    {
+      "id": 13,
+      "title": "about time",
+      "movieImg": "/img1.jpg",
+      "category": 6,
+      "coment": "모태솔로 팀(돔놀 글리슨)은 성인이 된 날, 아버지(빌 나이)로부터 놀랄만한 가문의 비밀을 듣게 된다.바로 시간을 되돌릴 수 있는 능력이 있다는 것!그것이 비록 히틀러를 죽이거나 여신과 뜨거운 사랑을 할 수는 없지만,여자친구는 만들어 줄 순 있으리..꿈을 위해 런던으로 간 팀은 우연히 만난 사랑스러운 여인 메리에게 첫눈에 반하게 된다.그녀의 사랑을 얻기 위해 자신의 특별한 능력을 마음껏 발휘하는 팀.어설픈 대시, 어색한 웃음은 리와인드! 뜨거웠던 밤은 더욱 뜨겁게 리플레이!꿈에 그리던 그녀와 매일매일 최고의 순간을 보낸다.하지만 그와 그녀의 사랑이 완벽해질수록 팀을 둘러싼 주변 상황들은 미묘하게 엇갈리고,예상치 못한 사건들이 여기저기 나타나기 시작하는데…어떠한 순간을 다시 살게 된다면, 과연 완벽한 사랑을 이룰 수 있을까?"
+    },
+    {
+      "id": 14,
+      "title": "마이클 잭슨의 디스 이즈 잇",
+      "movieImg": "/img1.jpg",
+      "category": 5,
+      "coment": "팝 황제 마이클 잭슨의 마지막 리허설 모습을 담은 다큐멘터리.7월 런던을 시작으로 50일간 예정되어 있던 투어의 정식 명칭으로 사망 몇일전인 지난 6월 LA스테이플스 센터에서 진행된 리허설을 중심으로, 지인들의 인터뷰와 그의 음악인생을 조명하는 미공개 영상들로 구성될 예정."
+    },
+    {
+      "id": 15,
+      "title": "더 퍼스트 슬램덩크",
+      "movieImg": "/img1.jpg",
+      "category": 3,
+      "coment": "전국 제패를 꿈꾸는 북산고 농구부 5인방의 꿈과 열정, 멈추지 않는 도전을 그린 영화"
+    },
+    {
+      "id": 16,
+      "title": "킬러의 보디가드",
+      "movieImg": "/img1.jpg",
+      "category": 2,
+      "coment": "세상 제일 잘난 맛에 사는 섭외 1순위 앵그리 보디가드가 지명수배 1순위 구강 액션 지존 킬러를 보호하게 되면서 벌어지는 누가 누구를 지키는 지 모를, 서로 못 죽여서 안달 난브로맨스 제로, 환장 케미의 킬링 액션 블록버스터"
+    },
+    {
+      "id": 17,
+      "title": "컨저링: 악마가 돌아왔다",
+      "movieImg": "/img1.jpg",
+      "category": 4,
+      "coment": "갑작스럽게 아버지를 잃고 깊은 슬픔에 빠져 있던 모건은 친구들의 도움으로 다시 대학 생활을 시작한다."
+    },
+    {
+      "id": 18,
+      "title": "Mission Impossible: Ghost Protocol",
+      "category": 1,
+      "movieImg": "/img1.jpg",
+      "coment": "The largest scale on earth, unprecedented actionThe impossible mission begins again!The Impossible Mission Force (IMF) is in crisis due to its involvement in the Russian Kremlin palace bombing.In order to avoid a national dispute, the government activates a 'ghost protocol' against the IMF organization, erasing both the past and identity of the organization.Special secret agent 'Ethan Hunt' (Tom Cruise), who became an international terrorist in an instant, resumes the most impossible mission on earth to regain the honor of himself and the organization!"
+    },
+    {
+      "id": 19,
+      "title": "라라랜드",
+      "movieImg": "/img1.jpg",
+      "category": 6,
+      "coment": "황홀한 사랑, 순수한 희망, 격렬한 열정… 이 곳에서 모든 감정이 폭발한다!꿈을 꾸는 사람들을 위한 별들의 도시 ‘라라랜드’.재즈 피아니스트 ‘세바스찬’(라이언 고슬링)과 배우 지망생 ‘미아’(엠마 스톤),인생에서 가장 빛나는 순간 만난 두 사람은미완성인 서로의 무대를 만들어가기 시작한다."
+    },
+    {
+      "id": 20,
+      "title": "Mission Impossible: Fallout",
+      "movieImg": "/img1.jpg",
+      "category": 1,
+      "coment": "During a perilous mission to retrieve a stolen nuclear weapon, Ethan Hunt (Tom Cruise) makes the choice to abandon the mission and save the lives of his teammates.Now, nuclear weapons have fallen into the hands of an evil terrorist organization intent on destroying civilization.In order to prevent a nuclear catastrophe that will destroy the world, Ethan Hunt and elite agents (Simon Peck, Ving Rhames, Rebecca Ferguson) of the IMF, the world's most powerful spy agency, have an uncomfortable relationship with their fateful rival, a senior CIA agent (Henry Cavill). You must form an alliance.There has never been a mission more impossible than this!Expect the largest and strongest action ever!"
+    }
+  ]
+}

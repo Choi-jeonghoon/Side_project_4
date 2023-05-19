@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "category": "액션"
+    },
+    {
+      "id": 2,
+      "category": "코믹"
+    },
+    {
+      "id": 3,
+      "category": "애니메이션"
+    },
+    {
+      "id": 4,
+      "category": "호러"
+    },
+    {
+      "id": 5,
+      "category": "다큐멘터리"
+    },
+    {
+      "id": 6,
+      "category": "로맨스"
+    }
+  ]
+}
